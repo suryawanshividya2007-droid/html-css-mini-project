@@ -1,0 +1,292 @@
+/* Global font and margin  */
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+/* Navbar layout */
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+/* Logo container */
+.nav-logo {
+  margin-right: 20px;
+}
+
+.logo {
+  background-image: url(../../Pictures/amazon_logo.png);
+  height: 50px;
+  width: 100px;
+  background-size: 100%;
+}
+
+.border:hover{
+  border:1.5px solid;
+}
+
+/* Address styling */
+
+.small-text {
+  font-size: 12px;
+  color: #cccccc;
+  margin-left: 15px;
+  margin-top: 20px;
+  
+}
+
+.bold-text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.loc-icon{
+    height:50px;
+    width: 100;
+    display: flex;
+    
+}
+
+/*search bar*/
+
+.nav-search{
+    display: flex;
+    background-color: #febd68;
+    width: 380px;
+    height: 40px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.nav-search:hover{
+  border: 2px solid rgb(235, 115, 9);
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f1111;
+    font-size: 20px;
+}
+
+/*languge*/
+.lang{
+  font-weight: bold;
+  
+}
+
+/*sign in*/
+
+.first-text{
+  font-size: 0.7rem;
+}
+
+.second-text{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/*return box*/
+.first-returns{
+  font-size: 0.7rem;
+}
+
+.second-returns{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.cart-logo{
+  font-size: 20px;
+}
+
+.nav-cart{
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/*second navigation bar*/
+
+.panel{
+  height: 39px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-ops p{
+ display: inline;
+ margin-left: 10px;
+}
+
+.panel-ops{
+  width: 95%;
+}
+
+/*images*/
+.first-img{
+  background-image: url(../../Pictures/first.jpg);
+  height: 300px;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+ 
+}
+
+.swipe-left{
+     color: black;
+     position: fixed;
+      left: 20px;
+      top: 50%;
+      font-size: 52px;
+      z-index: 10;
+}
+
+.swipe-right{
+     color: black;
+     position: fixed;
+      right: 20px;
+      top: 50%;
+      font-size: 52px;
+      z-index: 10;
+}
+
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d7dcdb;
+}
+
+.box{
+  
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.box-img {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+
+.box-content{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.box-p{
+  margin-top: 10px;
+  color: blue;
+}
+
+.shop-section2{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d7dcdb;
+} 
+
+.box-font{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/*footer*/
+
+footer{
+  margin-top: 10px;
+}
+.foot-p{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-panel{
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+  margin-top: 20px;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.foot-panel3{
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.logo{
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  
+}
+
+.foot-panel4{
+  background-color: #0f1111;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.foot-content{
+font-size: 0.7rem;
+text-align: center;
+}
+
+.copyright{
+font-size: 0.7rem;
+text-align: center;
+margin-top: 10px;
+}
